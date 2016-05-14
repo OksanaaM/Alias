@@ -12,4 +12,11 @@ public class Team {
     public int getPoint() {
         return point;
     }
+    public void setName(String name){
+        this.name = name;
+        
+    }
+    public String getName(){
+        return name;
+    }
 }
